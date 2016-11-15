@@ -11,13 +11,18 @@ import {
   Text,
   View,
   Button,
-  ToastAndroid
+  ToastAndroid,
+  NativeModules
 } from 'react-native';
 
 export default class rnintro extends Component {
 
   showToast() {
     ToastAndroid.show('Toast from React Native', ToastAndroid.SHORT)
+  }
+
+  navigate() {
+    NativeModules.Navigator.navigate()
   }
 
   render() {
@@ -29,6 +34,10 @@ export default class rnintro extends Component {
         <Button
           onPress={this.showToast}
           title={'Show Toast'}
+          />
+        <Button
+          onPress={this.navigate}
+          title={'Navigate'}
           />
         <Text style={styles.instructions}>
           To get started, edit index.android.js
@@ -58,7 +67,11 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     color: '#333333',
     marginBottom: 5,
+    marginTop: 10
   },
+  button: {
+    margin: 10
+  }
 });
 
 AppRegistry.registerComponent('rnintro', () => rnintro);
