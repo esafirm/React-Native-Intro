@@ -41,6 +41,26 @@ export default class RnIntro extends Component {
           onPress={this.showToast}
           title={'Show Toast'}
           />
+
+        <Button
+          onPress={this.showToast}
+          title={'Show Toast'}
+          />
+
+        <Button
+          onPress={this.showToast}
+          title={'Show Toast'}
+          />
+
+        <Button
+          onPress={this.showToast}
+          title={'Show Toast'}
+          />
+
+        <Button
+          onPress={this.showToast}
+          title={'Show Toast'}
+          />
         <Button
           onPress={this.navigate}
           title={'Navigate'}

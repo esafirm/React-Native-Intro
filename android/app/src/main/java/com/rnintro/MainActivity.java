@@ -22,6 +22,6 @@ public class MainActivity extends ReactActivity {
         if (exitBlocker.requestExit()) {
             super.finish();
         }
-        Toast.makeText(getApplicationContext(), "Are you gonna quit?", Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(), "Cabut lu?", Toast.LENGTH_SHORT).show();
     }
 }
