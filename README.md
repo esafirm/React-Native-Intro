@@ -1,8 +1,13 @@
 ## React-Native-Intro
-Demo app for "Introduction to React Native" talk
+Demo app for "Introduction to React Native" [talk](https://cdn.rawgit.com/esafirm/esafirm.github.io/master/slide-rn-intro.html#/)
 
 ### What can you learn from this
 - Basic React Native
+	- Component
+	- Component style
+	- props and state
+	- Navigator
+	- Calling API and parsing JSON
 - Calling Java method with Native Module
 - Build APK
 
